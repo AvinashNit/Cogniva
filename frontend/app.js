@@ -13,7 +13,7 @@ function getOrCreateUserId() {
   }
   
   const USER_ID = getOrCreateUserId();
-  const API_URL = "https://cogniva-backend.onrender.com/chat";
+  const API_URL = "https://cogniva.onrender.com/chat";
 
   
   /***********************
