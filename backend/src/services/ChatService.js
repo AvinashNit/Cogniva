@@ -1,6 +1,6 @@
 import { getRecentMessages, saveMessage } from "../memory/shortTermMemory.js";
 import { getUserProfile, saveSummary } from "../memory/longTermMemory.js";
-import { detectEmotion } from "./emotionService.js";
+import { detectEmotion } from "./EmotionService.js";
 import { detectTone } from "./ToneService.js";
 import { generateResponse } from "./llm/GeminiService.js";
 import { formatResponse } from "./responseFormatter.js";
